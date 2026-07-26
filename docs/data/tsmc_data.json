@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T20:39:26.410987+00:00",
+  "generated_at": "2026-07-26T20:40:29.551824+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 403.41,
@@ -23,9 +23,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518013112320,
   "total_debt_local": 982447030272,
-  "change_1d_pct": -1.34,
-  "change_ytd_pct": 30.7,
-  "change_1y_pct": 74.83,
+  "change_1d_pct": -2.93,
+  "change_ytd_pct": 26.87,
+  "change_1y_pct": 68.82,
   "history": [
     {
       "date": "2021-07-26",
@@ -2693,7 +2693,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5042,6 +5042,10 @@
     {
       "date": "2026-07-23",
       "close": 415.58
+    },
+    {
+      "date": "2026-07-24",
+      "close": 403.41
     }
   ]
 }
