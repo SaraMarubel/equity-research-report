@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-29T17:52:37.343476+00:00",
+  "generated_at": "2026-07-30T18:04:56.482852+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 380.84,
-  "market_cap": 1975216766976,
+  "price": 402.705,
+  "market_cap": 2088618950656,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 223.7,
-  "trailing_pe": 33.46573,
-  "forward_pe": 17.65674,
+  "trailing_pe": 35.35601,
+  "forward_pe": 18.63677,
   "beta": 1.246,
-  "dividend_yield_pct": 0.97,
+  "dividend_yield_pct": 1.01,
   "payout_ratio_pct": 27.9,
   "gross_margin_pct": 64.2,
   "operating_margin_pct": 60.3,
@@ -23,14 +23,10 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518013112320,
   "total_debt_local": 982447030272,
-  "change_1d_pct": -4.57,
-  "change_ytd_pct": 19.77,
-  "change_1y_pct": 58.62,
+  "change_1d_pct": 7.48,
+  "change_ytd_pct": 26.65,
+  "change_1y_pct": 67.62,
   "history": [
-    {
-      "date": "2021-07-29",
-      "close": 107.07
-    },
     {
       "date": "2021-07-30",
       "close": 107.52
@@ -5040,8 +5036,16 @@
       "close": 399.09
     },
     {
+      "date": "2026-07-28",
+      "close": 392.31
+    },
+    {
       "date": "2026-07-29",
-      "close": 380.84
+      "close": 374.67
+    },
+    {
+      "date": "2026-07-30",
+      "close": 402.7
     }
   ]
 }
