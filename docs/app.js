@@ -62,6 +62,21 @@ function positionHoverTip(ev) {
 function statTile(label, value, cls) {
   return `<div class="stat"><div class="k">${label}</div><div class="v ${cls || ""}">${value}</div></div>`;
 }
+function termLabel(label, key) {
+  return GLOSSARY[key || label] ? `<span class="term" data-term="${key || label}">${label}</span>` : label;
+}
+function timeAgo(iso) {
+  if (!iso) return "";
+  const diffMs = Date.now() - new Date(iso).getTime();
+  const h = Math.floor(diffMs / 3600000);
+  if (h < 1) return "just now";
+  if (h < 24) return `${h}h ago`;
+  return `${Math.floor(h / 24)}d ago`;
+}
+function pOrNm(v, decimals, suffix) {
+  if (v === null || v === undefined || v <= 0) return "n/m";
+  return v.toFixed(decimals) + (suffix || "");
+}
 
 function renderBarList(containerId, rows, colorFn) {
   const max = Math.max(...rows.map(r => r.value), 1);
@@ -132,11 +147,127 @@ function roundRectTop(ctx, x, y, width, height, r) {
   ctx.fill();
 }
 
+function renderOwnershipStrip(data) {
+  document.getElementById("ownership-strip").innerHTML =
+    statTile("Institutional Ownership", data.held_pct_institutions != null ? data.held_pct_institutions + "%" : "—") +
+    statTile("Insider Ownership", data.held_pct_insiders != null ? data.held_pct_insiders + "%" : "—") +
+    statTile(termLabel("Short Interest Ratio", "Short Ratio"), data.short_ratio_days != null ? data.short_ratio_days.toFixed(1) + " days" : "—") +
+    statTile("Analysts Covering", data.analyst_count ?? "—") +
+    statTile("Analyst Recommendation (1=Strong Buy, 5=Sell)", data.recommendation_mean != null ? data.recommendation_mean.toFixed(2) : "—") +
+    statTile("Consensus Rating", (data.analyst_recommendation || "—").replace("_", " ").toUpperCase());
+}
+
+function renderQuantStrip(data) {
+  document.getElementById("quant-strip").innerHTML =
+    statTile(termLabel("Beta (1Y daily, vs S&P 500)", "Beta"), data.beta_vs_sp500 ?? "—") +
+    statTile("Beta (Yahoo, standard methodology)", data.beta_yf ?? "—") +
+    statTile(termLabel("Beta vs Semiconductor Sector (SOXX)", "Beta"), data.beta_vs_soxx ?? "—") +
+    statTile(termLabel("Volatility (ann.)", "Volatility"), data.volatility_pct != null ? data.volatility_pct + "%" : "—") +
+    statTile(termLabel("Sharpe Ratio", "Sharpe Ratio"), data.sharpe_ratio ?? "—") +
+    statTile(termLabel("Max Drawdown (5Y)", "Max Drawdown"), data.max_drawdown_5y_pct != null ? data.max_drawdown_5y_pct + "%" : "—");
+}
+
+// Approximate spot rates for cross-currency display only (not live FX) —
+// matches the illustrative-conversion approach already used for TSMC's own
+// TWD balance-sheet figures elsewhere on this page.
+const FX_TO_USD = { KRW: 1 / 1350, TWD: 1 / 31, USD: 1 };
+
+function fmtPeerMoney(v, currency) {
+  if (v === null || v === undefined) return "—";
+  if (currency && currency !== "USD") {
+    // Shown in native currency (not converted) so the price itself isn't
+    // misleading — the market-cap column separately shows a USD approximation.
+    return `${v.toLocaleString("en-US", { maximumFractionDigits: 0 })} ${currency}`;
+  }
+  return fmtMoney(v, currency);
+}
+
+function fmtPeerMarketCap(v, currency) {
+  if (v === null || v === undefined) return "—";
+  const rate = FX_TO_USD[currency] ?? 1;
+  const usdApprox = v * rate;
+  const usdStr = fmtBig(usdApprox);
+  return currency && currency !== "USD" ? `${usdStr} approx.` : usdStr;
+}
+
+function renderPeerTable(data) {
+  const rows = [{ sym: "TSM", label: "TSMC", ...data, is_self: true }, ...Object.entries(data.peers).map(([sym, p]) => ({ sym, ...p }))];
+  const html = `<div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr>
+      <th>Company</th><th class="num">Price (native ccy)</th><th class="num">Mkt Cap (USD equiv.)</th>
+      <th class="num">${termLabel("Trailing P/E", "P/E Ratio")}</th><th class="num">Fwd P/E</th>
+      <th class="num">Gross Margin</th><th class="num">Op. Margin</th>
+      <th class="num">Rev. Growth YoY</th><th class="num">1Y Return</th><th class="num">Beta</th>
+    </tr></thead>
+    <tbody>
+      ${rows.map(r => `
+        <tr${r.is_self ? ' style="font-weight:700;"' : ""}>
+          <td>${r.is_self ? "TSMC" : r.label} <span style="color:var(--text-muted); font-weight:400;">${r.sym}</span></td>
+          <td class="num">${r.is_self ? fmtMoney(r.price) : fmtPeerMoney(r.price, r.currency)}</td>
+          <td class="num">${fmtPeerMarketCap(r.market_cap, r.currency)}</td>
+          <td class="num">${pOrNm(r.trailing_pe, 1, "x")}</td>
+          <td class="num">${pOrNm(r.forward_pe, 1, "x")}</td>
+          <td class="num">${r.gross_margin_pct != null ? r.gross_margin_pct + "%" : "—"}</td>
+          <td class="num">${r.operating_margin_pct != null ? r.operating_margin_pct + "%" : "—"}</td>
+          <td class="num ${(r.revenue_growth_yoy_pct ?? 0) >= 0 ? "delta-up" : "delta-down"}">${fmtPct(r.revenue_growth_yoy_pct)}</td>
+          <td class="num ${(r.change_1y_pct ?? 0) >= 0 ? "delta-up" : "delta-down"}">${fmtPct(r.change_1y_pct)}</td>
+          <td class="num">${r.beta_yf ?? "—"}</td>
+        </tr>`).join("")}
+    </tbody>
+  </table></div>`;
+  document.getElementById("peer-table-wrap").innerHTML = html;
+}
+
+function renderCorrelationChart(data) {
+  const rows = [
+    { label: "S&P 500", value: data.correlation_vs_sp500 },
+    { label: "Semiconductor Sector (SOXX)", value: data.correlation_vs_soxx },
+    { label: "Intel (INTC)", value: data.peer_correlations?.INTC },
+    { label: "Samsung Electronics", value: data.peer_correlations?.["005930.KS"] },
+    { label: "GlobalFoundries (GFS)", value: data.peer_correlations?.GFS },
+    { label: "UMC", value: data.peer_correlations?.UMC },
+    { label: "ASML", value: data.peer_correlations?.ASML },
+  ].filter(r => r.value != null);
+  const container = document.getElementById("correlation-chart");
+  const max = Math.max(...rows.map(r => Math.abs(r.value)), 1);
+  container.innerHTML = rows.map((r, i) => `
+    <div class="bar-row">
+      <div class="lbl">${r.label}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(Math.abs(r.value) / max) * 100}%; background:var(--series-${(i % 8) + 1})"></div></div>
+      <div class="val">${r.value.toFixed(2)}</div>
+    </div>`).join("");
+}
+
+function renderNewsFeed(containerId, items, hasKey) {
+  const el = document.getElementById(containerId);
+  if (!hasKey) {
+    el.innerHTML = `<div class="empty-note">Live news isn't wired up yet. Add a free API key from <a href="https://newsapi.org" target="_blank" rel="noopener">newsapi.org</a> as the <code>NEWSAPI_KEY</code> secret in this repo's GitHub settings, and the next scheduled refresh will populate headlines here.</div>`;
+    return;
+  }
+  if (!items || items.length === 0) {
+    el.innerHTML = `<div class="empty-note">No recent headlines matched this topic in the last fetch.</div>`;
+    return;
+  }
+  el.innerHTML = items.map(a => `
+    <div class="news-item">
+      <div class="news-date">${timeAgo(a.published_at)}</div>
+      <div class="news-body">
+        <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+        <div class="news-src">${a.source || "Unknown source"}</div>
+      </div>
+    </div>`).join("");
+}
+
 async function init() {
   try {
-    const [glossary, data] = await Promise.all([
-      fetch("glossary.json").then(r => r.json()).catch(() => ({})),
-      fetch("data/tsmc_data.json").then(r => r.json()),
+    // no-store: these are live/frequently-updated data files fetched from a
+    // fixed URL, so without this a browser can cache them indefinitely and
+    // never see a newer version pushed by the scheduled refresh workflow.
+    const noStore = { cache: "no-store" };
+    const [glossary, data, news] = await Promise.all([
+      fetch("glossary.json", noStore).then(r => r.json()).catch(() => ({})),
+      fetch("data/tsmc_data.json", noStore).then(r => r.json()),
+      fetch("data/news.json", noStore).then(r => r.json()).catch(() => ({ news: {}, has_key: false })),
     ]);
     GLOSSARY = glossary;
 
@@ -192,6 +323,14 @@ async function init() {
       { label: "TSMC", value: 67.6 }, { label: "Samsung Foundry", value: 7.2 },
       { label: "Intel, GF, UMC, SMIC, other", value: 25.2 },
     ], i => `var(--series-${i + 1})`);
+
+    renderOwnershipStrip(data);
+    renderQuantStrip(data);
+    renderPeerTable(data);
+    renderCorrelationChart(data);
+    renderNewsFeed("news-tsmc", news.news?.tsmc, news.has_key);
+    renderNewsFeed("news-policy", news.news?.policy, news.has_key);
+    renderNewsFeed("news-peers", news.news?.peers, news.has_key);
 
     // Annual revenue/net income figures below are hand-researched (yfinance
     // only exposes price history for free, not historical income statements).

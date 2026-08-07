@@ -1,10 +1,11 @@
-name: Refresh TSMC market data
+name: Refresh TSMC market data & news
 
 on:
   schedule:
-    # Once a day is plenty for a research report's live stat strip
-    # (the written analysis itself is static, hand-researched content).
-    - cron: "23 13 * * *"
+    # Every 4 hours — the live news feed and price stats both benefit from
+    # a tighter cadence than the old daily-only schedule; the written
+    # analysis itself remains static, hand-researched content.
+    - cron: "23 */4 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -35,10 +36,15 @@ jobs:
       - name: Fetch TSMC market data
         run: python scripts/fetch_tsmc_data.py
 
+      - name: Fetch news
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python scripts/fetch_news.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data
-          git diff --cached --quiet || git commit -m "chore: refresh TSMC market data [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: refresh TSMC market data & news [skip ci]"
           git push
