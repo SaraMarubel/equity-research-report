@@ -1,6 +1,6 @@
 # Equity Research Report — Taiwan Semiconductor Manufacturing Company (TSMC)
 
-An in-depth, single-company equity research report covering TSMC's business model, financials, peer benchmarking, quantitative risk profile, and — the part most retail-style dashboards skip — political, geopolitical, and environmental risk. Built as a live static webpage (not a downloadable PDF) on GitHub Pages, styled as an institutional research note rather than a consumer dashboard.
+An in-depth, live-updating TSMC equity research report — financials, peer benchmarking, and geopolitical risk — styled as an institutional research note, hosted live on GitHub Pages.
 
 **Live report:** enable GitHub Pages (Settings → Pages → source: `main` branch, `/docs` folder) and it'll be served at `https://<your-username>.github.io/equity-research-report/`.
 
