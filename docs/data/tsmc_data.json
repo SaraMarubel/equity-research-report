@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T10:36:33.632717+00:00",
+  "generated_at": "2026-08-07T10:37:37.754764+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 418.2,
   "market_cap": 2168983519232,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 223.7,
-  "trailing_pe": 36.91086,
+  "trailing_pe": 36.49215,
   "forward_pe": 19.353863,
   "beta_yf": 1.258,
   "dividend_yield_pct": 0.91,
@@ -2658,7 +2658,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.07
+      "close": 131.08
     },
     {
       "date": "2024-03-20",
@@ -5088,8 +5088,8 @@
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 50.36,
-      "market_cap": 27635105792,
-      "trailing_pe": 38.738464,
+      "market_cap": 27632576512,
+      "trailing_pe": 39.34375,
       "forward_pe": 19.3504,
       "gross_margin_pct": 27.2,
       "operating_margin_pct": 10.1,
