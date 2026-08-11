@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-11T04:52:44.295524+00:00",
+  "generated_at": "2026-08-11T11:09:52.801514+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 418.47,
   "market_cap": 2170383761408,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 223.7,
-  "trailing_pe": 36.902115,
+  "trailing_pe": 36.64361,
   "forward_pe": 19.228561,
   "beta_yf": 1.258,
-  "dividend_yield_pct": 0.9,
+  "dividend_yield_pct": 0.91,
   "payout_ratio_pct": 27.9,
   "gross_margin_pct": 64.2,
   "operating_margin_pct": 60.3,
@@ -18,13 +18,13 @@
   "revenue_growth_yoy_pct": 36.0,
   "earnings_growth_yoy_pct": 77.4,
   "shares_outstanding": 5186474013,
-  "analyst_target_mean": 540.20483,
+  "analyst_target_mean": 547.09375,
   "analyst_recommendation": "strong_buy",
   "analyst_count": 18,
   "recommendation_mean": 1.42105,
   "short_ratio_days": 2.27,
-  "held_pct_institutions": 15.5,
-  "held_pct_insiders": 0.042,
+  "held_pct_institutions": 15.47,
+  "held_pct_insiders": 0.043,
   "financial_currency": "TWD",
   "total_cash_local": 3518013112320,
   "total_debt_local": 982447030272,
@@ -2650,7 +2650,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 242500.0,
-      "market_cap": 1589108371619840,
+      "price": 239500.0,
+      "market_cap": 1572691932872704,
       "trailing_pe": null,
-      "forward_pe": 3.6100063,
+      "forward_pe": 3.5653465,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 129.9,
       "beta_yf": 1.557,
-      "change_1y_pct": 247.79
+      "change_1y_pct": 243.49
     },
     "GFS": {
       "label": "GlobalFoundries",
