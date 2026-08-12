@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:50:26.338082+00:00",
+  "generated_at": "2026-08-12T11:14:51.368712+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 422.06,
@@ -9,8 +9,8 @@
   "trailing_pe": 36.63715,
   "forward_pe": 19.39352,
   "beta_yf": 1.258,
-  "dividend_yield_pct": 0.91,
-  "payout_ratio_pct": 27.9,
+  "dividend_yield_pct": 0.9,
+  "payout_ratio_pct": 25.7,
   "gross_margin_pct": 64.2,
   "operating_margin_pct": 60.3,
   "profit_margin_pct": 49.9,
@@ -23,7 +23,7 @@
   "analyst_count": 18,
   "recommendation_mean": 1.42105,
   "short_ratio_days": 2.16,
-  "held_pct_institutions": 15.47,
+  "held_pct_institutions": 15.51,
   "held_pct_insiders": 0.043,
   "financial_currency": "TWD",
   "total_cash_local": 3518013112320,
@@ -2646,7 +2646,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.07
+      "close": 131.08
     },
     {
       "date": "2024-03-20",
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 255000.0,
-      "market_cap": 1674473665200128,
+      "price": 255500.0,
+      "market_cap": 1677756899262464,
       "trailing_pe": null,
-      "forward_pe": 3.7960892,
+      "forward_pe": 3.8035324,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 129.9,
       "beta_yf": 1.557,
-      "change_1y_pct": 255.65
+      "change_1y_pct": 256.34
     },
     "GFS": {
       "label": "GlobalFoundries",
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 18.94,
       "market_cap": 47499792384,
-      "trailing_pe": 18.568628,
+      "trailing_pe": 18.388351,
       "forward_pe": 21.567823,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,7 +5115,7 @@
       "currency": "USD",
       "price": 1799.38,
       "market_cap": 691141869568,
-      "trailing_pe": 61.41229,
+      "trailing_pe": 61.349472,
       "forward_pe": 30.30568,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
