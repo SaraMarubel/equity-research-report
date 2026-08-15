@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:46:44.159549+00:00",
+  "generated_at": "2026-08-15T17:02:28.932259+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 426.35,
@@ -5056,7 +5056,7 @@
   "volatility_pct": 40.43,
   "sharpe_ratio": 1.55,
   "max_drawdown_5y_pct": -56.47,
-  "beta_vs_sp500": 2.21,
+  "beta_vs_sp500": 2.18,
   "correlation_vs_sp500": 0.7,
   "beta_vs_soxx": 0.71,
   "correlation_vs_soxx": 0.79,
