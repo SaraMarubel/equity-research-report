@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:30:14.503752+00:00",
+  "generated_at": "2026-08-16T05:48:48.714930+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 426.35,
@@ -2638,7 +2638,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5081,7 +5081,7 @@
       "price": 274500.0,
       "market_cap": 1802521672679424,
       "trailing_pe": null,
-      "forward_pe": 4.086378,
+      "forward_pe": 4.0779953,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 129.9,
