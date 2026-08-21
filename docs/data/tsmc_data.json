@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-21T09:03:26.363012+00:00",
+  "generated_at": "2026-08-21T13:17:55.634926+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 416.0,
   "market_cap": 2157573177344,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 225.63,
-  "trailing_pe": 30.76923,
+  "trailing_pe": 31.044777,
   "forward_pe": 19.098978,
   "beta_yf": 1.258,
-  "dividend_yield_pct": 1.05,
+  "dividend_yield_pct": 1.04,
   "payout_ratio_pct": 25.7,
   "gross_margin_pct": 64.2,
   "operating_margin_pct": 60.3,
@@ -2618,7 +2618,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5080,7 +5080,7 @@
       "forward_pe": 4.181988,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
-      "revenue_growth_yoy_pct": 129.9,
+      "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.557,
       "change_1y_pct": 304.3
     },
@@ -5089,7 +5089,7 @@
       "currency": "USD",
       "price": 47.33,
       "market_cap": 25970012160,
-      "trailing_pe": 38.169357,
+      "trailing_pe": 36.976566,
       "forward_pe": 18.017984,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
@@ -5116,7 +5116,7 @@
       "price": 1750.31,
       "market_cap": 672294109184,
       "trailing_pe": 59.514114,
-      "forward_pe": 29.158247,
+      "forward_pe": 29.008938,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
