@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:07:11.176975+00:00",
+  "generated_at": "2026-08-23T16:47:22.625557+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 418.95,
@@ -5092,7 +5092,7 @@
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 48.05,
-      "market_cap": 26367490048,
+      "market_cap": 26365075456,
       "trailing_pe": 37.539062,
       "forward_pe": 18.292078,
       "gross_margin_pct": 27.1,
