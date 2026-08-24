@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:09:06.594113+00:00",
+  "generated_at": "2026-08-24T13:26:42.537628+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 418.95,
@@ -5060,7 +5060,7 @@
   "correlation_vs_sp500": 0.7,
   "beta_vs_soxx": 0.71,
   "correlation_vs_soxx": 0.79,
-  "risk_free_rate_pct": 3.71,
+  "risk_free_rate_pct": 3.72,
   "peers": {
     "INTC": {
       "label": "Intel",
@@ -5085,14 +5085,14 @@
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
-      "beta_yf": 1.557,
+      "beta_yf": 1.548,
       "change_1y_pct": 262.43
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 48.05,
-      "market_cap": 26367490048,
+      "market_cap": 26365075456,
       "trailing_pe": 37.539062,
       "forward_pe": 18.292078,
       "gross_margin_pct": 27.1,
