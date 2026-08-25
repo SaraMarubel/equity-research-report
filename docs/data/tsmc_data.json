@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-24T20:53:54.768551+00:00",
+  "generated_at": "2026-08-25T01:56:38.571461+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 410.12,
   "market_cap": 2127076655104,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 225.63,
-  "trailing_pe": 30.583147,
+  "trailing_pe": 31.259146,
   "forward_pe": 18.829021,
   "beta_yf": 1.258,
   "dividend_yield_pct": 1.04,
@@ -2610,7 +2610,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5074,22 +5074,22 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 257000.0,
-      "market_cap": 1687606735667200,
+      "price": 249500.0,
+      "market_cap": 1638357553643520,
       "trailing_pe": null,
-      "forward_pe": 3.8180103,
+      "forward_pe": 3.7065897,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.548,
-      "change_1y_pct": 304.3
+      "change_1y_pct": 255.46
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 45.95,
       "market_cap": 25212805120,
-      "trailing_pe": 35.898438,
+      "trailing_pe": 37.663933,
       "forward_pe": 17.492634,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 19.05,
       "market_cap": 47775657984,
-      "trailing_pe": 18.495146,
+      "trailing_pe": 17.803738,
       "forward_pe": 21.693085,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,8 +5115,8 @@
       "currency": "USD",
       "price": 1740.13,
       "market_cap": 668383903744,
-      "trailing_pe": 58.728657,
-      "forward_pe": 28.815533,
+      "trailing_pe": 59.53233,
+      "forward_pe": 28.819973,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
@@ -5126,7 +5126,7 @@
   },
   "peer_correlations": {
     "INTC": 0.47,
-    "005930.KS": 0.23,
+    "005930.KS": 0.24,
     "GFS": 0.45,
     "UMC": 0.43,
     "ASML": 0.72
