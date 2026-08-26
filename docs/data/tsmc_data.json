@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:00:39.514193+00:00",
+  "generated_at": "2026-08-26T09:07:08.659124+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 417.41,
@@ -22,7 +22,7 @@
   "analyst_recommendation": "strong_buy",
   "analyst_count": 18,
   "recommendation_mean": 1.42105,
-  "short_ratio_days": 2.16,
+  "short_ratio_days": 2.18,
   "held_pct_institutions": 15.49,
   "held_pct_insiders": 0.013,
   "financial_currency": "TWD",
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 264500.0,
-      "market_cap": 1736856051908608,
+      "price": 261500.0,
+      "market_cap": 1717156244881408,
       "trailing_pe": null,
-      "forward_pe": 3.8539217,
+      "forward_pe": 3.8102098,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.548,
-      "change_1y_pct": 275.97
+      "change_1y_pct": 272.41
     },
     "GFS": {
       "label": "GlobalFoundries",
