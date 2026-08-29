@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T13:52:44.393013+00:00",
+  "generated_at": "2026-08-29T19:26:25.208686+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 417.52,
@@ -19,9 +19,9 @@
   "earnings_growth_yoy_pct": 77.4,
   "shares_outstanding": 5186474013,
   "analyst_target_mean": 554.45483,
-  "analyst_recommendation": "strong_buy",
+  "analyst_recommendation": "none",
   "analyst_count": 18,
-  "recommendation_mean": 1.42105,
+  "recommendation_mean": null,
   "short_ratio_days": 2.18,
   "held_pct_institutions": 15.49,
   "held_pct_insiders": 0.013,
@@ -2598,7 +2598,7 @@
     },
     {
       "date": "2024-03-19",
-      "close": 131.08
+      "close": 131.07
     },
     {
       "date": "2024-03-20",
@@ -5088,8 +5088,8 @@
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 44.76,
-      "market_cap": 24562098176,
-      "trailing_pe": 34.96875,
+      "market_cap": 24559849472,
+      "trailing_pe": 36.09677,
       "forward_pe": 17.039614,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 19.79,
       "market_cap": 49631514624,
-      "trailing_pe": 19.213594,
+      "trailing_pe": 18.495327,
       "forward_pe": 22.535757,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
