@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T19:47:17.037386+00:00",
+  "generated_at": "2026-09-22T23:02:23.859630+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 452.02,
-  "market_cap": 2344441872384,
+  "price": 452.0,
+  "market_cap": 2344286158848,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 33.633186,
-  "forward_pe": 20.61701,
+  "trailing_pe": 33.630955,
+  "forward_pe": 20.61564,
   "beta_yf": 1.247,
   "dividend_yield_pct": 0.91,
   "payout_ratio_pct": 25.7,
@@ -28,14 +28,10 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
   "total_debt_local": 1068558516224,
-  "change_1d_pct": 1.55,
-  "change_ytd_pct": 42.54,
-  "change_1y_pct": 67.56,
+  "change_1d_pct": 1.54,
+  "change_ytd_pct": 42.53,
+  "change_1y_pct": 67.55,
   "history": [
-    {
-      "date": "2021-09-22",
-      "close": 106.96
-    },
     {
       "date": "2021-09-23",
       "close": 107.26
@@ -3254,7 +3250,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5050,7 +5046,7 @@
     },
     {
       "date": "2026-09-22",
-      "close": 452.03
+      "close": 452.0
     }
   ],
   "volatility_pct": 40.45,
@@ -5065,15 +5061,15 @@
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 123.26,
-      "market_cap": 651538857984,
+      "price": 123.86,
+      "market_cap": 654736949248,
       "trailing_pe": null,
-      "forward_pe": 59.772175,
+      "forward_pe": 60.065567,
       "gross_margin_pct": 38.9,
       "operating_margin_pct": 12.2,
       "revenue_growth_yoy_pct": 25.4,
       "beta_yf": 2.231,
-      "change_1y_pct": 328.56
+      "change_1y_pct": 330.67
     },
     "005930.KS": {
       "label": "Samsung Electronics",
@@ -5091,41 +5087,41 @@
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 48.265,
-      "market_cap": 26903810048,
-      "trailing_pe": 37.70703,
-      "forward_pe": 18.392902,
+      "price": 47.95,
+      "market_cap": 26728222720,
+      "trailing_pe": 37.460938,
+      "forward_pe": 18.272863,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
       "revenue_growth_yoy_pct": 5.8,
       "beta_yf": 1.774,
-      "change_1y_pct": 45.72
+      "change_1y_pct": 44.77
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 25.745,
-      "market_cap": 64566108160,
-      "trailing_pe": 24.995148,
-      "forward_pe": 29.316982,
+      "price": 25.77,
+      "market_cap": 64628805632,
+      "trailing_pe": 24.778847,
+      "forward_pe": 29.34545,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
       "beta_yf": 1.703,
-      "change_1y_pct": 260.85
+      "change_1y_pct": 261.2
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1748.15,
-      "market_cap": 671464423424,
-      "trailing_pe": 60.094536,
-      "forward_pe": 29.446718,
+      "price": 1747.9,
+      "market_cap": 671368413184,
+      "trailing_pe": 60.08594,
+      "forward_pe": 29.442509,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
       "beta_yf": 1.363,
-      "change_1y_pct": 83.72
+      "change_1y_pct": 83.69
     }
   },
   "peer_correlations": {
