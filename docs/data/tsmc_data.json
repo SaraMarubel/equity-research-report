@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-24T20:02:25.614646+00:00",
+  "generated_at": "2026-09-24T23:15:50.148677+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 451.05,
-  "market_cap": 2339358900224,
+  "price": 451.15,
+  "market_cap": 2339877683200,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 33.56027,
-  "forward_pe": 20.572311,
+  "trailing_pe": 33.567707,
+  "forward_pe": 20.576872,
   "beta_yf": 1.247,
   "dividend_yield_pct": 0.91,
   "payout_ratio_pct": 25.7,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
   "total_debt_local": 1068558516224,
-  "change_1d_pct": 1.0,
-  "change_ytd_pct": 42.23,
-  "change_1y_pct": 62.38,
+  "change_1d_pct": 1.03,
+  "change_ytd_pct": 42.27,
+  "change_1y_pct": 62.42,
   "history": [
     {
       "date": "2021-09-27",
@@ -3242,7 +3242,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.85
+      "close": 195.86
     },
     {
       "date": "2024-12-05",
@@ -5046,7 +5046,7 @@
     },
     {
       "date": "2026-09-24",
-      "close": 451.05
+      "close": 451.15
     }
   ],
   "volatility_pct": 40.33,
@@ -5100,15 +5100,15 @@
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 24.085,
-      "market_cap": 60402974720,
-      "trailing_pe": 24.328281,
-      "forward_pe": 27.426664,
+      "price": 24.1,
+      "market_cap": 60440596480,
+      "trailing_pe": 24.343435,
+      "forward_pe": 27.443747,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
       "beta_yf": 1.703,
-      "change_1y_pct": 227.66
+      "change_1y_pct": 227.86
     },
     "ASML": {
       "label": "ASML (equipment)",
