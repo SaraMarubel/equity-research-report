@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T22:59:22.801180+00:00",
+  "generated_at": "2026-09-27T05:27:35.540627+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 450.61,
@@ -3178,7 +3178,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.37
+      "close": 189.38
     },
     {
       "date": "2024-11-12",
@@ -3242,7 +3242,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5106,7 +5106,7 @@
       "currency": "USD",
       "price": 24.31,
       "market_cap": 60967256064,
-      "trailing_pe": 23.375,
+      "trailing_pe": 24.069307,
       "forward_pe": 27.682882,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5120,7 +5120,7 @@
       "price": 1743.94,
       "market_cap": 669847322624,
       "trailing_pe": 60.23972,
-      "forward_pe": 29.642584,
+      "forward_pe": 29.45407,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
