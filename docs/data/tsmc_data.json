@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-30T20:52:52.715512+00:00",
+  "generated_at": "2026-10-01T06:10:19.656854+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 456.19,
   "market_cap": 2366017634304,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 33.967983,
+  "trailing_pe": 34.018642,
   "forward_pe": 20.806746,
   "beta_yf": 1.247,
   "dividend_yield_pct": 0.89,
@@ -19,9 +19,9 @@
   "earnings_growth_yoy_pct": 77.4,
   "shares_outstanding": 5186474013,
   "analyst_target_mean": 552.2594,
-  "analyst_recommendation": "strong_buy",
+  "analyst_recommendation": "none",
   "analyst_count": 20,
-  "recommendation_mean": 1.38095,
+  "recommendation_mean": null,
   "short_ratio_days": 2.88,
   "held_pct_institutions": 15.48,
   "held_pct_insiders": 0.013,
@@ -3162,7 +3162,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.38
+      "close": 189.37
     },
     {
       "date": "2024-11-12",
@@ -3226,7 +3226,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.85
+      "close": 195.86
     },
     {
       "date": "2024-12-05",
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 268500.0,
-      "market_cap": 1763122192842752,
+      "price": 275250.0,
+      "market_cap": 1807446523772928,
       "trailing_pe": null,
-      "forward_pe": 3.7837248,
+      "forward_pe": 3.8788464,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.544,
-      "change_1y_pct": 255.38
+      "change_1y_pct": 251.01
     },
     "GFS": {
       "label": "GlobalFoundries",
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 24.49,
       "market_cap": 61418680320,
-      "trailing_pe": 23.548077,
+      "trailing_pe": 23.7767,
       "forward_pe": 27.887856,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,7 +5115,7 @@
       "currency": "USD",
       "price": 1811.67,
       "market_cap": 695862493184,
-      "trailing_pe": 62.514496,
+      "trailing_pe": 63.30084,
       "forward_pe": 30.79988,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
