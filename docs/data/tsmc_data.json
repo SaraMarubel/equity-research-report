@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-02T05:53:37.746132+00:00",
+  "generated_at": "2026-10-02T14:48:25.082802+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 459.2,
-  "market_cap": 2381628833792,
+  "price": 469.71,
+  "market_cap": 2436138532864,
   "fifty_two_week_high": 479.0,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 33.889297,
-  "forward_pe": 20.944033,
+  "trailing_pe": 35.026844,
+  "forward_pe": 21.423391,
   "beta_yf": 1.247,
   "dividend_yield_pct": 0.89,
   "payout_ratio_pct": 25.7,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
   "total_debt_local": 1068558516224,
-  "change_1d_pct": 0.66,
-  "change_ytd_pct": 44.8,
-  "change_1y_pct": 60.87,
+  "change_1d_pct": 2.29,
+  "change_ytd_pct": 48.12,
+  "change_1y_pct": 64.76,
   "history": [
     {
       "date": "2021-10-04",
@@ -3222,7 +3222,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5047,81 +5047,85 @@
     {
       "date": "2026-10-01",
       "close": 459.2
+    },
+    {
+      "date": "2026-10-02",
+      "close": 469.71
     }
   ],
-  "volatility_pct": 40.11,
-  "sharpe_ratio": 1.29,
+  "volatility_pct": 40.16,
+  "sharpe_ratio": 1.35,
   "max_drawdown_5y_pct": -56.47,
-  "beta_vs_sp500": 2.18,
-  "correlation_vs_sp500": 0.7,
-  "beta_vs_soxx": 0.69,
+  "beta_vs_sp500": 2.17,
+  "correlation_vs_sp500": 0.71,
+  "beta_vs_soxx": 0.7,
   "correlation_vs_soxx": 0.8,
   "risk_free_rate_pct": 3.98,
   "peers": {
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 120.0,
-      "market_cap": 634332643328,
+      "price": 124.33,
+      "market_cap": 657169645568,
       "trailing_pe": null,
-      "forward_pe": 58.193672,
+      "forward_pe": 60.28874,
       "gross_margin_pct": 38.9,
       "operating_margin_pct": 12.2,
       "revenue_growth_yoy_pct": 25.4,
       "beta_yf": 2.231,
-      "change_1y_pct": 233.89
+      "change_1y_pct": 233.3
     },
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 274750.0,
-      "market_cap": 1805804906741760,
+      "price": 276000.0,
+      "market_cap": 1812371509084160,
       "trailing_pe": null,
-      "forward_pe": 3.8845482,
+      "forward_pe": 3.9022214,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.544,
-      "change_1y_pct": 255.75
+      "change_1y_pct": 257.37
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 48.68,
-      "market_cap": 27135137792,
-      "trailing_pe": 37.446156,
-      "forward_pe": 18.551052,
+      "price": 50.41,
+      "market_cap": 28099473408,
+      "trailing_pe": 39.382812,
+      "forward_pe": 19.210323,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
       "revenue_growth_yoy_pct": 5.8,
       "beta_yf": 1.774,
-      "change_1y_pct": 41.62
+      "change_1y_pct": 41.6
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 25.21,
-      "market_cap": 63224373248,
-      "trailing_pe": 23.560745,
-      "forward_pe": 28.707752,
+      "price": 26.18,
+      "market_cap": 65657049088,
+      "trailing_pe": 25.173079,
+      "forward_pe": 29.812336,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
       "beta_yf": 1.703,
-      "change_1y_pct": 246.2
+      "change_1y_pct": 265.44
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1808.49,
-      "market_cap": 694641033216,
-      "trailing_pe": 62.904,
-      "forward_pe": 30.745815,
+      "price": 1862.57,
+      "market_cap": 715413127168,
+      "trailing_pe": 64.78504,
+      "forward_pe": 31.787107,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
       "beta_yf": 1.363,
-      "change_1y_pct": 81.45
+      "change_1y_pct": 81.99
     }
   },
   "peer_correlations": {
