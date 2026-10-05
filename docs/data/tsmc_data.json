@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-05T05:55:38.976042+00:00",
+  "generated_at": "2026-10-05T17:14:16.474277+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 472.78,
-  "market_cap": 2452061159424,
-  "fifty_two_week_high": 479.0,
+  "price": 484.6316,
+  "market_cap": 2513529208832,
+  "fifty_two_week_high": 485.73,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 34.359013,
-  "forward_pe": 21.563414,
-  "beta_yf": 1.247,
+  "trailing_pe": 35.220318,
+  "forward_pe": 22.103962,
+  "beta_yf": 1.239,
   "dividend_yield_pct": 0.8,
   "payout_ratio_pct": 25.4,
   "gross_margin_pct": 64.2,
@@ -28,14 +28,10 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
   "total_debt_local": 1068558516224,
-  "change_1d_pct": 2.96,
-  "change_ytd_pct": 49.09,
-  "change_1y_pct": 65.83,
+  "change_1d_pct": 2.51,
+  "change_ytd_pct": 52.82,
+  "change_1y_pct": 67.62,
   "history": [
-    {
-      "date": "2021-10-04",
-      "close": 100.64
-    },
     {
       "date": "2021-10-05",
       "close": 100.86
@@ -5051,29 +5047,33 @@
     {
       "date": "2026-10-02",
       "close": 472.78
+    },
+    {
+      "date": "2026-10-05",
+      "close": 484.63
     }
   ],
   "volatility_pct": 40.2,
-  "sharpe_ratio": 1.36,
+  "sharpe_ratio": 1.31,
   "max_drawdown_5y_pct": -56.47,
   "beta_vs_sp500": 2.18,
   "correlation_vs_sp500": 0.71,
-  "beta_vs_soxx": 0.7,
+  "beta_vs_soxx": 0.69,
   "correlation_vs_soxx": 0.8,
-  "risk_free_rate_pct": 3.99,
+  "risk_free_rate_pct": 4.02,
   "peers": {
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 119.33,
-      "market_cap": 630790946816,
+      "price": 117.165,
+      "market_cap": 619346526208,
       "trailing_pe": null,
-      "forward_pe": 57.86876,
+      "forward_pe": 56.802593,
       "gross_margin_pct": 38.9,
       "operating_margin_pct": 12.2,
       "revenue_growth_yoy_pct": 25.4,
-      "beta_yf": 2.231,
-      "change_1y_pct": 219.92
+      "beta_yf": 2.23,
+      "change_1y_pct": 218.12
     },
     "005930.KS": {
       "label": "Samsung Electronics",
@@ -5085,54 +5085,54 @@
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
-      "beta_yf": 1.544,
+      "beta_yf": 1.545,
       "change_1y_pct": 257.37
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 50.17,
-      "market_cap": 27965691904,
-      "trailing_pe": 39.195312,
-      "forward_pe": 19.118862,
+      "price": 48.48,
+      "market_cap": 27023654912,
+      "trailing_pe": 37.875,
+      "forward_pe": 18.420713,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
       "revenue_growth_yoy_pct": 5.8,
-      "beta_yf": 1.774,
-      "change_1y_pct": 40.93
+      "beta_yf": 1.765,
+      "change_1y_pct": 35.92
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 26.27,
-      "market_cap": 65882759168,
-      "trailing_pe": 24.78302,
-      "forward_pe": 29.914822,
+      "price": 23.695,
+      "market_cap": 59424894976,
+      "trailing_pe": 22.353775,
+      "forward_pe": 26.982553,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
-      "beta_yf": 1.703,
-      "change_1y_pct": 266.7
+      "beta_yf": 1.707,
+      "change_1y_pct": 232.58
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1867.31,
-      "market_cap": 717233782784,
-      "trailing_pe": 60.607273,
-      "forward_pe": 32.06817,
+      "price": 1856.2,
+      "market_cap": 712966406144,
+      "trailing_pe": 60.246674,
+      "forward_pe": 31.87737,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
-      "beta_yf": 1.363,
-      "change_1y_pct": 82.46
+      "beta_yf": 1.302,
+      "change_1y_pct": 81.01
     }
   },
   "peer_correlations": {
     "INTC": 0.51,
     "005930.KS": 0.24,
     "GFS": 0.5,
-    "UMC": 0.45,
-    "ASML": 0.74
+    "UMC": 0.44,
+    "ASML": 0.73
   }
 }
