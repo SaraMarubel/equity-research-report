@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:02:04.683684+00:00",
+  "generated_at": "2026-10-10T06:03:41.801874+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 453.31,
@@ -9,7 +9,7 @@
   "trailing_pe": 32.94404,
   "forward_pe": 20.67539,
   "beta_yf": 1.239,
-  "dividend_yield_pct": 0.82,
+  "dividend_yield_pct": 0.83,
   "payout_ratio_pct": 25.4,
   "gross_margin_pct": 64.2,
   "operating_margin_pct": 60.3,
@@ -23,7 +23,7 @@
   "analyst_count": 20,
   "recommendation_mean": 1.38095,
   "short_ratio_days": 2.88,
-  "held_pct_institutions": 15.5,
+  "held_pct_institutions": 15.49,
   "held_pct_insiders": 0.013,
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
@@ -3138,7 +3138,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.38
+      "close": 189.37
     },
     {
       "date": "2024-11-12",
@@ -3202,7 +3202,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5081,7 +5081,7 @@
       "price": 262000.0,
       "market_cap": 1720439613161472,
       "trailing_pe": null,
-      "forward_pe": 3.6538055,
+      "forward_pe": 3.6383338,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
@@ -5093,8 +5093,8 @@
       "currency": "USD",
       "price": 48.24,
       "market_cap": 26889875456,
-      "trailing_pe": 37.687504,
-      "forward_pe": 18.329521,
+      "trailing_pe": 38.592003,
+      "forward_pe": 18.383377,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
       "revenue_growth_yoy_pct": 5.8,
@@ -5120,7 +5120,7 @@
       "price": 1780.34,
       "market_cap": 683828576256,
       "trailing_pe": 57.784485,
-      "forward_pe": 30.612108,
+      "forward_pe": 30.574593,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
