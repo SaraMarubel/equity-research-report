@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T05:04:19.787315+00:00",
+  "generated_at": "2026-10-14T13:51:10.940116+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 445.12,
-  "market_cap": 2308603379712,
+  "price": 439.08,
+  "market_cap": 2277276909568,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 32.348835,
-  "forward_pe": 19.94502,
+  "trailing_pe": 31.909882,
+  "forward_pe": 19.674377,
   "beta_yf": 1.239,
   "dividend_yield_pct": 0.85,
   "payout_ratio_pct": 25.4,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 3518010228736,
   "total_debt_local": 1068558516224,
-  "change_1d_pct": 0.17,
-  "change_ytd_pct": 40.36,
-  "change_1y_pct": 48.51,
+  "change_1d_pct": -1.36,
+  "change_ytd_pct": 38.46,
+  "change_1y_pct": 49.94,
   "history": [
     {
       "date": "2021-10-14",
@@ -3190,7 +3190,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5047,81 +5047,85 @@
     {
       "date": "2026-10-13",
       "close": 445.12
+    },
+    {
+      "date": "2026-10-14",
+      "close": 439.08
     }
   ],
-  "volatility_pct": 38.81,
-  "sharpe_ratio": 1.11,
+  "volatility_pct": 38.76,
+  "sharpe_ratio": 1.14,
   "max_drawdown_5y_pct": -56.47,
   "beta_vs_sp500": 2.11,
   "correlation_vs_sp500": 0.69,
   "beta_vs_soxx": 0.68,
   "correlation_vs_soxx": 0.8,
-  "risk_free_rate_pct": 4.06,
+  "risk_free_rate_pct": 4.11,
   "peers": {
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 102.81,
-      "market_cap": 543464456192,
+      "price": 100.93,
+      "market_cap": 533526577152,
       "trailing_pe": null,
-      "forward_pe": 49.178448,
+      "forward_pe": 48.27431,
       "gross_margin_pct": 38.9,
       "operating_margin_pct": 12.2,
       "revenue_growth_yoy_pct": 25.4,
       "beta_yf": 2.23,
-      "change_1y_pct": 176.22
+      "change_1y_pct": 183.27
     },
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 237500.0,
-      "market_cap": 1546581618720768,
+      "price": 232000.0,
+      "market_cap": 1510766020657152,
       "trailing_pe": null,
-      "forward_pe": 3.2903788,
+      "forward_pe": 3.2141805,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.545,
-      "change_1y_pct": 188.69
+      "change_1y_pct": 182.01
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 46.7,
-      "market_cap": 26031450112,
-      "trailing_pe": 36.484375,
-      "forward_pe": 17.79007,
+      "price": 49.01,
+      "market_cap": 27319085056,
+      "trailing_pe": 38.289062,
+      "forward_pe": 18.670048,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
       "revenue_growth_yoy_pct": 5.8,
       "beta_yf": 1.765,
-      "change_1y_pct": 36.29
+      "change_1y_pct": 40.02
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 22.39,
-      "market_cap": 56152072192,
-      "trailing_pe": 20.73148,
-      "forward_pe": 25.496492,
+      "price": 21.885,
+      "market_cap": 54885580800,
+      "trailing_pe": 20.646227,
+      "forward_pe": 24.921427,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
       "beta_yf": 1.707,
-      "change_1y_pct": 198.22
+      "change_1y_pct": 200.95
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1717.76,
-      "market_cap": 659791609856,
-      "trailing_pe": 56.804234,
-      "forward_pe": 29.226446,
+      "price": 1713.98,
+      "market_cap": 658339725312,
+      "trailing_pe": 55.63064,
+      "forward_pe": 29.162132,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
       "revenue_growth_yoy_pct": 21.3,
       "beta_yf": 1.302,
-      "change_1y_pct": 75.6
+      "change_1y_pct": 75.56
     }
   },
   "peer_correlations": {
