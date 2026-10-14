@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:45:46.864756+00:00",
+  "generated_at": "2026-10-14T05:04:19.787315+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 445.12,
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 232000.0,
-      "market_cap": 1510766020657152,
+      "price": 237500.0,
+      "market_cap": 1546581618720768,
       "trailing_pe": null,
-      "forward_pe": 3.2141805,
+      "forward_pe": 3.2903788,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.545,
-      "change_1y_pct": 172.84
+      "change_1y_pct": 188.69
     },
     "GFS": {
       "label": "GlobalFoundries",
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 22.39,
       "market_cap": 56152072192,
-      "trailing_pe": 21.122643,
+      "trailing_pe": 20.73148,
       "forward_pe": 25.496492,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,7 +5115,7 @@
       "currency": "USD",
       "price": 1717.76,
       "market_cap": 659791609856,
-      "trailing_pe": 55.753326,
+      "trailing_pe": 56.804234,
       "forward_pe": 29.226446,
       "gross_margin_pct": 52.7,
       "operating_margin_pct": 37.1,
