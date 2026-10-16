@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:44:07.071317+00:00",
+  "generated_at": "2026-10-16T13:21:21.888696+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 422.25,
@@ -18,7 +18,7 @@
   "revenue_growth_yoy_pct": 36.0,
   "earnings_growth_yoy_pct": 77.4,
   "shares_outstanding": 5186474013,
-  "analyst_target_mean": 579.672,
+  "analyst_target_mean": 584.39294,
   "analyst_recommendation": "strong_buy",
   "analyst_count": 20,
   "recommendation_mean": 1.38095,
@@ -3118,7 +3118,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.37
+      "close": 189.38
     },
     {
       "date": "2024-11-12",
@@ -5056,7 +5056,7 @@
   "correlation_vs_sp500": 0.69,
   "beta_vs_soxx": 0.68,
   "correlation_vs_soxx": 0.8,
-  "risk_free_rate_pct": 4.09,
+  "risk_free_rate_pct": 4.07,
   "peers": {
     "INTC": {
       "label": "Intel",
@@ -5074,15 +5074,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 219250.0,
-      "market_cap": 1427739068334080,
+      "price": 215500.0,
+      "market_cap": 1403319360684032,
       "trailing_pe": null,
-      "forward_pe": 3.0433066,
+      "forward_pe": 2.9912546,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.545,
-      "change_1y_pct": 163.43
+      "change_1y_pct": 158.92
     },
     "GFS": {
       "label": "GlobalFoundries",
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 20.92,
       "market_cap": 52465446912,
-      "trailing_pe": 19.73585,
+      "trailing_pe": 19.370369,
       "forward_pe": 23.822538,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,11 +5115,11 @@
       "currency": "USD",
       "price": 1657.44,
       "market_cap": 636622667776,
-      "trailing_pe": 55.74975,
+      "trailing_pe": 40.783463,
       "forward_pe": 26.65615,
-      "gross_margin_pct": 52.7,
-      "operating_margin_pct": 37.1,
-      "revenue_growth_yoy_pct": 21.3,
+      "gross_margin_pct": 54.3,
+      "operating_margin_pct": 44.4,
+      "revenue_growth_yoy_pct": 55.2,
       "beta_yf": 1.302,
       "change_1y_pct": 65.21
     }
