@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-19T21:09:50.870628+00:00",
+  "generated_at": "2026-10-20T05:01:35.978682+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 420.22,
   "market_cap": 2179460104192,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 27.23396,
+  "trailing_pe": 26.731552,
   "forward_pe": 17.969416,
   "beta_yf": 1.239,
-  "dividend_yield_pct": 0.91,
+  "dividend_yield_pct": 0.9,
   "payout_ratio_pct": 24.5,
   "gross_margin_pct": 65.8,
   "operating_margin_pct": 58.7,
@@ -3110,7 +3110,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.37
+      "close": 189.38
     },
     {
       "date": "2024-11-12",
@@ -3174,7 +3174,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.85
+      "close": 195.86
     },
     {
       "date": "2024-12-05",
@@ -5074,22 +5074,22 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 218000.0,
-      "market_cap": 1419599165784064,
+      "price": 210500.0,
+      "market_cap": 1370759750483968,
       "trailing_pe": null,
-      "forward_pe": 3.007451,
+      "forward_pe": 2.9039836,
       "gross_margin_pct": 57.5,
       "operating_margin_pct": 52.2,
       "revenue_growth_yoy_pct": 130.0,
       "beta_yf": 1.545,
-      "change_1y_pct": 155.53
+      "change_1y_pct": 136.43
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 46.11,
       "market_cap": 25702574080,
-      "trailing_pe": 36.023438,
+      "trailing_pe": 36.595238,
       "forward_pe": 17.541525,
       "gross_margin_pct": 27.1,
       "operating_margin_pct": 9.7,
@@ -5102,7 +5102,7 @@
       "currency": "USD",
       "price": 20.08,
       "market_cap": 50358804480,
-      "trailing_pe": 18.592592,
+      "trailing_pe": 18.943398,
       "forward_pe": 22.865992,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5115,8 +5115,8 @@
       "currency": "USD",
       "price": 1647.12,
       "market_cap": 634829275136,
-      "trailing_pe": 40.52953,
-      "forward_pe": 26.212753,
+      "trailing_pe": 40.39039,
+      "forward_pe": 26.23657,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 44.4,
       "revenue_growth_yoy_pct": 55.2,
