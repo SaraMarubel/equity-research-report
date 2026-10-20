@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T20:02:22.530131+00:00",
+  "generated_at": "2026-10-20T23:14:33.445565+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 425.293,
-  "market_cap": 2205771104256,
+  "price": 425.08,
+  "market_cap": 2204666167296,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 27.562735,
-  "forward_pe": 18.186346,
+  "trailing_pe": 27.54893,
+  "forward_pe": 18.177238,
   "beta_yf": 1.239,
   "dividend_yield_pct": 0.9,
   "payout_ratio_pct": 24.5,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 4016980099072,
   "total_debt_local": 818380013568,
-  "change_1d_pct": 1.21,
-  "change_ytd_pct": 34.11,
-  "change_1y_pct": 44.37,
+  "change_1d_pct": 1.16,
+  "change_ytd_pct": 34.05,
+  "change_1y_pct": 44.3,
   "history": [
     {
       "date": "2021-10-21",
@@ -3170,7 +3170,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5046,7 +5046,7 @@
     },
     {
       "date": "2026-10-20",
-      "close": 425.29
+      "close": 425.08
     }
   ],
   "volatility_pct": 38.88,
@@ -5100,15 +5100,15 @@
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 19.665,
-      "market_cap": 49318023168,
-      "trailing_pe": 18.208334,
-      "forward_pe": 22.393415,
+      "price": 19.67,
+      "market_cap": 49330561024,
+      "trailing_pe": 18.212963,
+      "forward_pe": 22.399107,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
       "revenue_growth_yoy_pct": 17.0,
       "beta_yf": 1.707,
-      "change_1y_pct": 166.1
+      "change_1y_pct": 166.17
     },
     "ASML": {
       "label": "ASML (equipment)",
@@ -5116,7 +5116,7 @@
       "price": 1630.84,
       "market_cap": 628554661888,
       "trailing_pe": 40.128937,
-      "forward_pe": 25.977251,
+      "forward_pe": 26.002733,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 44.4,
       "revenue_growth_yoy_pct": 55.2,
