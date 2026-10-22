@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-22T20:12:55.979073+00:00",
+  "generated_at": "2026-10-22T23:27:45.572558+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 412.375,
-  "market_cap": 2138772209664,
+  "price": 412.35,
+  "market_cap": 2138642579456,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 26.725534,
-  "forward_pe": 17.63395,
+  "trailing_pe": 26.723915,
+  "forward_pe": 17.63288,
   "beta_yf": 1.239,
   "dividend_yield_pct": 0.87,
   "payout_ratio_pct": 24.5,
@@ -29,8 +29,8 @@
   "total_cash_local": 4016980099072,
   "total_debt_local": 818380013568,
   "change_1d_pct": -4.52,
-  "change_ytd_pct": 30.04,
-  "change_1y_pct": 44.26,
+  "change_ytd_pct": 30.03,
+  "change_1y_pct": 44.25,
   "history": [
     {
       "date": "2021-10-25",
@@ -5046,7 +5046,7 @@
     },
     {
       "date": "2026-10-22",
-      "close": 412.38
+      "close": 412.35
     }
   ],
   "volatility_pct": 39.12,
@@ -5116,7 +5116,7 @@
       "price": 1560.54,
       "market_cap": 601459785728,
       "trailing_pe": 38.399117,
-      "forward_pe": 24.855026,
+      "forward_pe": 24.836662,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 44.4,
       "revenue_growth_yoy_pct": 55.2,
