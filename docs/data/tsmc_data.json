@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:14:23.277385+00:00",
+  "generated_at": "2026-10-24T04:48:44.810853+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 418.51,
@@ -9,7 +9,7 @@
   "trailing_pe": 27.123137,
   "forward_pe": 17.896294,
   "beta_yf": 1.239,
-  "dividend_yield_pct": 0.91,
+  "dividend_yield_pct": 0.9,
   "payout_ratio_pct": 24.5,
   "gross_margin_pct": 65.8,
   "operating_margin_pct": 58.7,
@@ -3162,7 +3162,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.85
+      "close": 195.86
     },
     {
       "date": "2024-12-05",
@@ -5106,7 +5106,7 @@
       "currency": "USD",
       "price": 18.89,
       "market_cap": 47374393344,
-      "trailing_pe": 19.080807,
+      "trailing_pe": 17.820755,
       "forward_pe": 21.510885,
       "gross_margin_pct": 30.6,
       "operating_margin_pct": 21.7,
@@ -5119,7 +5119,7 @@
       "currency": "USD",
       "price": 1571.8,
       "market_cap": 605799579648,
-      "trailing_pe": 38.67618,
+      "trailing_pe": 38.40215,
       "forward_pe": 25.015871,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 44.4,
