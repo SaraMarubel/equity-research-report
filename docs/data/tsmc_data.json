@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:56:43.725513+00:00",
+  "generated_at": "2026-11-05T12:33:04.113974+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 395.75,
@@ -9,7 +9,7 @@
   "trailing_pe": 25.648088,
   "forward_pe": 16.88771,
   "beta_yf": 1.233,
-  "dividend_yield_pct": 0.93,
+  "dividend_yield_pct": 0.95,
   "payout_ratio_pct": 24.5,
   "gross_margin_pct": 65.8,
   "operating_margin_pct": 58.7,
@@ -23,7 +23,7 @@
   "analyst_count": 20,
   "recommendation_mean": 1.38095,
   "short_ratio_days": 2.79,
-  "held_pct_institutions": 15.5,
+  "held_pct_institutions": 15.47,
   "held_pct_insiders": 0.013,
   "financial_currency": "TWD",
   "total_cash_local": 4016980099072,
@@ -3050,7 +3050,7 @@
     },
     {
       "date": "2024-11-06",
-      "close": 188.57
+      "close": 188.56
     },
     {
       "date": "2024-11-07",
@@ -3062,7 +3062,7 @@
     },
     {
       "date": "2024-11-11",
-      "close": 189.38
+      "close": 189.37
     },
     {
       "date": "2024-11-12",
@@ -5074,27 +5074,27 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 207500.0,
-      "market_cap": 1351223957520384,
+      "price": 201500.0,
+      "market_cap": 1312152371593216,
       "trailing_pe": null,
-      "forward_pe": 2.7304826,
+      "forward_pe": 2.6515288,
       "gross_margin_pct": 64.1,
       "operating_margin_pct": 55.0,
       "revenue_growth_yoy_pct": 126.8,
       "beta_yf": 1.594,
-      "change_1y_pct": 108.62
+      "change_1y_pct": 102.59
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
       "price": 40.34,
       "market_cap": 22486267904,
-      "trailing_pe": 31.515625,
+      "trailing_pe": 115.25715,
       "forward_pe": 15.318658,
-      "gross_margin_pct": 27.1,
-      "operating_margin_pct": 9.7,
-      "revenue_growth_yoy_pct": 5.8,
-      "beta_yf": 1.849,
+      "gross_margin_pct": 28.5,
+      "operating_margin_pct": 12.1,
+      "revenue_growth_yoy_pct": 12.5,
+      "beta_yf": null,
       "change_1y_pct": 17.66
     },
     "UMC": {
