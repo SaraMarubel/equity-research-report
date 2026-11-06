@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06T16:01:03.892322+00:00",
+  "generated_at": "2026-11-06T21:38:20.227654+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 372.36,
-  "market_cap": 1931235426304,
+  "price": 375.44,
+  "market_cap": 1947209826304,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 266.82,
-  "trailing_pe": 24.132208,
-  "forward_pe": 15.92283,
+  "trailing_pe": 24.331821,
+  "forward_pe": 16.054537,
   "beta_yf": 1.233,
   "dividend_yield_pct": 1.07,
   "payout_ratio_pct": 24.5,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 4016980099072,
   "total_debt_local": 818380013568,
-  "change_1d_pct": 5.45,
-  "change_ytd_pct": 17.42,
-  "change_1y_pct": 30.1,
+  "change_1d_pct": 6.33,
+  "change_ytd_pct": 18.39,
+  "change_1y_pct": 31.18,
   "history": [
     {
       "date": "2021-11-08",
@@ -3122,7 +3122,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.85
+      "close": 195.86
     },
     {
       "date": "2024-12-05",
@@ -5050,14 +5050,14 @@
     },
     {
       "date": "2026-11-06",
-      "close": 372.36
+      "close": 375.44
     }
   ],
-  "volatility_pct": 41.45,
-  "sharpe_ratio": 0.75,
+  "volatility_pct": 41.58,
+  "sharpe_ratio": 0.77,
   "max_drawdown_5y_pct": -56.47,
-  "beta_vs_sp500": 2.19,
-  "correlation_vs_sp500": 0.72,
+  "beta_vs_sp500": 2.18,
+  "correlation_vs_sp500": 0.71,
   "beta_vs_soxx": 0.7,
   "correlation_vs_soxx": 0.82,
   "risk_free_rate_pct": 4.0,
@@ -5065,15 +5065,15 @@
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 55.49,
-      "market_cap": 294929334272,
+      "price": 56.28,
+      "market_cap": 299128193024,
       "trailing_pe": null,
-      "forward_pe": 30.834803,
+      "forward_pe": 31.27379,
       "gross_margin_pct": 40.2,
       "operating_margin_pct": 15.6,
       "revenue_growth_yoy_pct": 20.9,
       "beta_yf": 2.426,
-      "change_1y_pct": 49.01
+      "change_1y_pct": 51.13
     },
     "005930.KS": {
       "label": "Samsung Electronics",
@@ -5081,56 +5081,56 @@
       "price": 188700.0,
       "market_cap": 1228800746586112,
       "trailing_pe": null,
-      "forward_pe": 2.4830945,
+      "forward_pe": 2.4403918,
       "gross_margin_pct": 64.1,
       "operating_margin_pct": 55.0,
       "revenue_growth_yoy_pct": 126.8,
       "beta_yf": 1.594,
-      "change_1y_pct": 102.59
+      "change_1y_pct": 94.49
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 38.235,
-      "market_cap": 21314054144,
-      "trailing_pe": 109.24286,
-      "forward_pe": 14.8612995,
+      "price": 38.62,
+      "market_cap": 21528670208,
+      "trailing_pe": 110.34286,
+      "forward_pe": 15.134236,
       "gross_margin_pct": 28.5,
       "operating_margin_pct": 12.1,
       "revenue_growth_yoy_pct": 12.5,
       "beta_yf": 1.849,
-      "change_1y_pct": 11.52
+      "change_1y_pct": 12.65
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 13.82,
-      "market_cap": 34657710080,
-      "trailing_pe": 13.037736,
-      "forward_pe": 15.361871,
+      "price": 13.85,
+      "market_cap": 34732945408,
+      "trailing_pe": 13.066039,
+      "forward_pe": 15.395218,
       "gross_margin_pct": 31.7,
       "operating_margin_pct": 25.1,
       "revenue_growth_yoy_pct": 25.6,
       "beta_yf": 1.832,
-      "change_1y_pct": 92.38
+      "change_1y_pct": 92.8
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1417.48,
-      "market_cap": 546321924096,
-      "trailing_pe": 34.878937,
-      "forward_pe": 22.357979,
+      "price": 1424.75,
+      "market_cap": 549123915776,
+      "trailing_pe": 35.057827,
+      "forward_pe": 22.47265,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 44.4,
       "revenue_growth_yoy_pct": 55.2,
       "beta_yf": 1.333,
-      "change_1y_pct": 38.57
+      "change_1y_pct": 39.28
     }
   },
   "peer_correlations": {
     "INTC": 0.57,
-    "005930.KS": 0.29,
+    "005930.KS": 0.27,
     "GFS": 0.52,
     "UMC": 0.49,
     "ASML": 0.76
