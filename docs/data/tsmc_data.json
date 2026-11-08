@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:43:11.964909+00:00",
+  "generated_at": "2026-11-08T06:20:23.711666+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 375.44,
@@ -21,7 +21,7 @@
   "analyst_target_mean": 586.693,
   "analyst_recommendation": "strong_buy",
   "analyst_count": 20,
-  "recommendation_mean": 1.38095,
+  "recommendation_mean": 1.33333,
   "short_ratio_days": 2.79,
   "held_pct_institutions": 15.45,
   "held_pct_insiders": 0.013,
