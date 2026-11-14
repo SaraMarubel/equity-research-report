@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:45:36.260296+00:00",
+  "generated_at": "2026-11-14T15:12:26.935361+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 398.73,
@@ -23,8 +23,8 @@
   "analyst_count": 20,
   "recommendation_mean": 1.38095,
   "short_ratio_days": 2.78,
-  "held_pct_institutions": 15.35,
-  "held_pct_insiders": 0.014,
+  "held_pct_institutions": 15.43,
+  "held_pct_insiders": 0.051,
   "financial_currency": "TWD",
   "total_cash_local": 4016980099072,
   "total_debt_local": 818380013568,
@@ -3102,7 +3102,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5106,7 +5106,7 @@
       "currency": "USD",
       "price": 15.4,
       "market_cap": 38620024832,
-      "trailing_pe": 14.807693,
+      "trailing_pe": 14.528302,
       "forward_pe": 17.118149,
       "gross_margin_pct": 31.7,
       "operating_margin_pct": 21.5,
