@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:55:02.746502+00:00",
+  "generated_at": "2026-11-19T13:33:35.483059+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 362.62,
@@ -9,7 +9,7 @@
   "trailing_pe": 23.50097,
   "forward_pe": 15.506329,
   "beta_yf": 1.233,
-  "dividend_yield_pct": 1.05,
+  "dividend_yield_pct": 1.04,
   "payout_ratio_pct": 24.5,
   "gross_margin_pct": 65.8,
   "operating_margin_pct": 58.0,
@@ -23,14 +23,14 @@
   "analyst_count": 20,
   "recommendation_mean": 1.38095,
   "short_ratio_days": 2.78,
-  "held_pct_institutions": 15.36,
+  "held_pct_institutions": 15.41,
   "held_pct_insiders": 0.022,
   "financial_currency": "TWD",
   "total_cash_local": 4016968302592,
   "total_debt_local": 1069741834240,
-  "change_1d_pct": -3.68,
-  "change_ytd_pct": 13.43,
-  "change_1y_pct": 28.9,
+  "change_1d_pct": 0.81,
+  "change_ytd_pct": 14.35,
+  "change_1y_pct": 31.86,
   "history": [
     {
       "date": "2021-11-19",
@@ -5043,10 +5043,14 @@
     {
       "date": "2026-11-17",
       "close": 359.69
+    },
+    {
+      "date": "2026-11-18",
+      "close": 362.62
     }
   ],
-  "volatility_pct": 42.45,
-  "sharpe_ratio": 0.72,
+  "volatility_pct": 42.42,
+  "sharpe_ratio": 0.77,
   "max_drawdown_5y_pct": -56.47,
   "beta_vs_sp500": 2.22,
   "correlation_vs_sp500": 0.72,
@@ -5065,20 +5069,20 @@
       "operating_margin_pct": 10.3,
       "revenue_growth_yoy_pct": 20.9,
       "beta_yf": 2.426,
-      "change_1y_pct": 58.95
+      "change_1y_pct": 59.25
     },
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 189900.0,
-      "market_cap": 1236615036928000,
+      "price": 196900.0,
+      "market_cap": 1282198464364544,
       "trailing_pe": null,
-      "forward_pe": 2.4416692,
+      "forward_pe": 2.5316727,
       "gross_margin_pct": 64.1,
       "operating_margin_pct": 46.1,
       "revenue_growth_yoy_pct": 126.8,
       "beta_yf": 1.594,
-      "change_1y_pct": 93.59
+      "change_1y_pct": 100.72
     },
     "GFS": {
       "label": "GlobalFoundries",
@@ -5091,7 +5095,7 @@
       "operating_margin_pct": 11.7,
       "revenue_growth_yoy_pct": 12.5,
       "beta_yf": 1.849,
-      "change_1y_pct": 20.62
+      "change_1y_pct": 21.73
     },
     "UMC": {
       "label": "UMC",
@@ -5104,7 +5108,7 @@
       "operating_margin_pct": 21.5,
       "revenue_growth_yoy_pct": 25.6,
       "beta_yf": 1.832,
-      "change_1y_pct": 104.97
+      "change_1y_pct": 101.21
     },
     "ASML": {
       "label": "ASML (equipment)",
@@ -5117,7 +5121,7 @@
       "operating_margin_pct": 38.6,
       "revenue_growth_yoy_pct": 55.2,
       "beta_yf": 1.333,
-      "change_1y_pct": 36.43
+      "change_1y_pct": 39.81
     }
   },
   "peer_correlations": {
