@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:32:24.631637+00:00",
+  "generated_at": "2026-11-26T14:03:27.039064+00:00",
   "ticker": "TSM",
   "currency": "USD",
   "price": 342.34,
@@ -9,7 +9,7 @@
   "trailing_pe": 22.18665,
   "forward_pe": 14.639117,
   "beta_yf": 1.233,
-  "dividend_yield_pct": 1.08,
+  "dividend_yield_pct": 1.1,
   "payout_ratio_pct": 24.5,
   "gross_margin_pct": 65.8,
   "operating_margin_pct": 58.0,
@@ -19,9 +19,9 @@
   "earnings_growth_yoy_pct": 68.7,
   "shares_outstanding": 5186472994,
   "analyst_target_mean": 586.693,
-  "analyst_recommendation": "strong_buy",
+  "analyst_recommendation": "none",
   "analyst_count": 20,
-  "recommendation_mean": 1.38095,
+  "recommendation_mean": null,
   "short_ratio_days": 2.27,
   "held_pct_institutions": 15.42,
   "held_pct_insiders": 0.022,
@@ -3070,7 +3070,7 @@
     },
     {
       "date": "2024-12-04",
-      "close": 195.86
+      "close": 195.85
     },
     {
       "date": "2024-12-05",
@@ -5060,7 +5060,7 @@
   "correlation_vs_sp500": 0.76,
   "beta_vs_soxx": 0.72,
   "correlation_vs_soxx": 0.84,
-  "risk_free_rate_pct": 4.15,
+  "risk_free_rate_pct": 4.16,
   "peers": {
     "INTC": {
       "label": "Intel",
@@ -5078,15 +5078,15 @@
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 172100.0,
-      "market_cap": 1120702660870144,
+      "price": 171300.0,
+      "market_cap": 1115493133975552,
       "trailing_pe": null,
-      "forward_pe": 2.228326,
+      "forward_pe": 2.2179677,
       "gross_margin_pct": 64.0,
       "operating_margin_pct": 46.1,
       "revenue_growth_yoy_pct": 126.9,
       "beta_yf": 1.576,
-      "change_1y_pct": 75.44
+      "change_1y_pct": 74.63
     },
     "GFS": {
       "label": "GlobalFoundries",
