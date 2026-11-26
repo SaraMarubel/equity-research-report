@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T14:40:01.460141+00:00",
+  "generated_at": "2026-11-26T00:32:24.631637+00:00",
   "ticker": "TSM",
   "currency": "USD",
-  "price": 324.865,
-  "market_cap": 1684903428096,
+  "price": 342.34,
+  "market_cap": 1775537094656,
   "fifty_two_week_high": 487.47,
   "fifty_two_week_low": 275.08,
-  "trailing_pe": 21.054113,
-  "forward_pe": 13.891852,
+  "trailing_pe": 22.18665,
+  "forward_pe": 14.639117,
   "beta_yf": 1.233,
   "dividend_yield_pct": 1.08,
   "payout_ratio_pct": 24.5,
@@ -28,9 +28,9 @@
   "financial_currency": "TWD",
   "total_cash_local": 4016968302592,
   "total_debt_local": 1069741834240,
-  "change_1d_pct": -6.97,
-  "change_ytd_pct": 2.44,
-  "change_1y_pct": 15.32,
+  "change_1d_pct": -1.96,
+  "change_ytd_pct": 7.95,
+  "change_1y_pct": 21.53,
   "history": [
     {
       "date": "2021-11-26",
@@ -5050,89 +5050,89 @@
     },
     {
       "date": "2026-11-25",
-      "close": 324.86
+      "close": 342.34
     }
   ],
-  "volatility_pct": 46.34,
-  "sharpe_ratio": 0.45,
+  "volatility_pct": 45.84,
+  "sharpe_ratio": 0.56,
   "max_drawdown_5y_pct": -56.47,
-  "beta_vs_sp500": 2.35,
-  "correlation_vs_sp500": 0.77,
-  "beta_vs_soxx": 0.73,
-  "correlation_vs_soxx": 0.85,
-  "risk_free_rate_pct": 4.16,
+  "beta_vs_sp500": 2.34,
+  "correlation_vs_sp500": 0.76,
+  "beta_vs_soxx": 0.72,
+  "correlation_vs_soxx": 0.84,
+  "risk_free_rate_pct": 4.15,
   "peers": {
     "INTC": {
       "label": "Intel",
       "currency": "USD",
-      "price": 50.45,
-      "market_cap": 268141740032,
+      "price": 54.47,
+      "market_cap": 289508032512,
       "trailing_pe": null,
-      "forward_pe": 28.177116,
+      "forward_pe": 30.42235,
       "gross_margin_pct": 40.2,
       "operating_margin_pct": 10.3,
       "revenue_growth_yoy_pct": 20.9,
       "beta_yf": 2.426,
-      "change_1y_pct": 40.8
+      "change_1y_pct": 52.02
     },
     "005930.KS": {
       "label": "Samsung Electronics",
       "currency": "KRW",
-      "price": 170700.0,
-      "market_cap": 1111585988804608,
+      "price": 172100.0,
+      "market_cap": 1120702660870144,
       "trailing_pe": null,
-      "forward_pe": 2.202744,
+      "forward_pe": 2.228326,
       "gross_margin_pct": 64.0,
       "operating_margin_pct": 46.1,
       "revenue_growth_yoy_pct": 126.9,
       "beta_yf": 1.576,
-      "change_1y_pct": 80.1
+      "change_1y_pct": 75.44
     },
     "GFS": {
       "label": "GlobalFoundries",
       "currency": "USD",
-      "price": 34.38,
-      "market_cap": 19165089792,
-      "trailing_pe": 98.22858,
-      "forward_pe": 13.265885,
+      "price": 36.2,
+      "market_cap": 20179646464,
+      "trailing_pe": 103.42857,
+      "forward_pe": 13.968152,
       "gross_margin_pct": 28.5,
       "operating_margin_pct": 11.7,
       "revenue_growth_yoy_pct": 12.5,
       "beta_yf": 1.849,
-      "change_1y_pct": -0.24
+      "change_1y_pct": 5.04
     },
     "UMC": {
       "label": "UMC",
       "currency": "USD",
-      "price": 12.19,
-      "market_cap": 30570006528,
-      "trailing_pe": 11.5,
-      "forward_pe": 13.5500145,
+      "price": 13.19,
+      "market_cap": 33077800960,
+      "trailing_pe": 12.443397,
+      "forward_pe": 14.661582,
       "gross_margin_pct": 31.7,
       "operating_margin_pct": 21.5,
       "revenue_growth_yoy_pct": 25.6,
       "beta_yf": 1.832,
-      "change_1y_pct": 70.63
+      "change_1y_pct": 84.62
     },
     "ASML": {
       "label": "ASML (equipment)",
       "currency": "USD",
-      "price": 1255.225,
-      "market_cap": 483785965568,
-      "trailing_pe": 30.886442,
-      "forward_pe": 19.798723,
+      "price": 1303.08,
+      "market_cap": 502230122496,
+      "trailing_pe": 32.063976,
+      "forward_pe": 20.553543,
       "gross_margin_pct": 54.3,
       "operating_margin_pct": 38.6,
       "revenue_growth_yoy_pct": 55.2,
       "beta_yf": 1.333,
-      "change_1y_pct": 25.89
+      "change_1y_pct": 30.69
     }
   },
   "peer_correlations": {
     "INTC": 0.6,
-    "005930.KS": 0.28,
-    "GFS": 0.57,
-    "UMC": 0.58,
+    "005930.KS": 0.27,
+    "GFS": 0.56,
+    "UMC": 0.57,
     "ASML": 0.78
   }
 }
